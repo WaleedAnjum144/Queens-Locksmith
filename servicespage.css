@@ -1,0 +1,192 @@
+/* home banner  */
+
+.bg-banner {
+    background-image: url('images/carkeyreplacement/replacement banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+
+}
+
+.programing-banner {
+    background-image: url('images/KeyPrograming/keyprogramming.png');
+
+}
+.duplication_banner{
+    background-image: url('images/keyDuplication/keyduplication.png');
+}
+
+.extraction_banner{
+    background-image: url('images/keyExtraction/ketextraction.png');
+}
+
+.associate_banner{
+    background-image: url('images/keyassociate/keyAssociate.png');
+}
+
+.banner-head {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+@media screen and (min-width:768px) {
+    .bg-banner {
+        height: 600px;
+    }
+
+    .banner-head {
+        font-family: "Poppins", sans-serif;
+        font-size: 64px;
+        font-weight: 600;
+        text-transform: capitalize;
+
+    }
+}
+
+/* servies section  */
+
+#services-section {
+    background-color: #F5F5F5;
+}
+
+#services-section .card-text {
+    font-size: 14px;
+}
+
+
+/* list  */
+
+.list {
+    border: 0;
+    border-radius: 0;
+}
+
+.list .list-group-item {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    border: 0;
+    color: rgba(153, 153, 153, 1) !important;
+    padding-left: 20px;
+
+}
+
+.featured {
+    font-size: 30px !important;
+}
+
+#services-section .col-lg-8 li.list-group-item {
+    position: relative;
+}
+
+#services-section .col-lg-8 li.list-group-item::after {
+    position: absolute;
+    content: url("images/Ellipse\ 4.png");
+    left: -2px;
+    top: 11px;
+    width: 100%;
+}
+
+/* sidebar  */
+.side-bar .card {
+    border-radius: 0;
+    padding: 30px 25px 25px 20px;
+}
+
+.side-bar .card-body .card-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #030509;
+    padding-bottom: 16px;
+}
+
+.side-bar .divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(51, 115, 186, 1);
+    margin-bottom: 12px;
+
+}
+
+.side-bar p.card-text {
+    font-family: "Poppins", sans-serif;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.side-bar .list-group {
+    border: 0;
+    border-radius: 0;
+    margin: 15px 0px;
+}
+
+.side-bar .list-group-item {
+    font-family: "Poppins", sans-serif;
+    border: 0;
+    color: rgba(153, 153, 153, 1) !important;
+    font-size: 16px;
+    padding-left: 0;
+
+}
+
+.side-bar .list-group-item i {
+    color: rgba(51, 115, 186, 1);
+}
+
+.side-bar .card .custom-btn {
+    border: 1px solid rgba(51, 115, 186, 1) !important;
+}
+
+.side-bar .card .custom-btn:hover {
+    border: 1px solid rgba(51, 115, 186, 1) !important;
+}
+
+
+
+.side-bar .social-icons i {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #3373BA;
+    border-radius: 50px;
+}
+
+.side-bar .social-icons i:hover {
+   color: #e6e6e6;
+   
+    
+}
+
+.side-bar .bg-image {
+
+    background: url("images/carkeyreplacement/sidebar-pic.jpg") center/cover no-repeat;
+
+    background-repeat:no-repeat ;
+   background-position: center;
+   background-size: cover;
+
+}
+
+.bg-image .divider{
+   background-color: #EA272B !important;
+   
+}
+
+/* services box section  */
+
+#services .active{
+    background-color: #3373BA;
+}
+
+#services .active .card-title, 
+.active .card-text, .active .card-text, .active a{
+    color: #fff !important;
+}
+

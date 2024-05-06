@@ -1,0 +1,603 @@
+/* google font family  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+/* nav style  */
+
+body {
+    background-color: #F5F5F5;
+}
+
+a,
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-brand img {
+    width: 250px;
+}
+
+img {
+    width: 100%;
+}
+
+.custom-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #3373BA;
+    text-transform: uppercase;
+    padding: 13px 40px;
+    border-radius: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.custom-btn:hover {
+    background-color: #fff;
+    color: #3373BA;
+    border: 1px solid #3373BA;
+}
+
+nav .custom-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #3373BA;
+    text-transform: uppercase;
+    padding: 13px 40px;
+    border-radius: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+nav .custom-btn:hover {
+    background-color: #fff;
+    color: #3373BA;
+    border: 1px solid #3373BA;
+}
+
+.icon-item i {
+    color: #EA272B;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.icon-item:hover i {
+    color: #fff;
+}
+
+.icon-item a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.social-icons i {
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.social-icons a:hover i {
+    color: #EA272B;
+}
+
+
+/* bottom nav bar  */
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3373BA !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #3373BA !important;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+    border-radius: 0;
+    background-color: #EDEDED;
+
+}
+
+.dropdown .dropdown-menu a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dropdown .dropdown-menu li a:hover {
+
+    background-color: #3373BA;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Home  */
+
+/* Hero Section  */
+
+
+.sub-title {
+    font-size: 20px;
+    color: #3373BA;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+#section .card {
+    margin-top: 10px;
+    border: none;
+}
+
+#section .card-body {
+    padding: 0;
+}
+
+#section .card-body .card-title {
+
+    /* font-size: 84px; */
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.black {
+    color: #030509;
+}
+
+.red {
+    color: #EA272B;
+}
+
+.blue {
+    color: #3373BA;
+}
+
+
+#section .card-text {
+    font-family: "Manrope", sans-serif;
+    color: #999999;
+    font-size: 16.8px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-right: 00px;
+
+
+}
+
+#section .custom-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #3373BA;
+    padding: 13px 40px;
+    border-radius: 0;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in-out;
+}
+
+#section .custom-btn:hover {
+    background-color: #fff;
+    color: #3373BA;
+    border: 1px solid #3373BA;
+}
+
+#section .custom-btn i {
+    transition: all 0.4s ease-in-out;
+}
+
+#section .custom-btn:hover i {
+    transform: translateX(10px);
+}
+
+
+
+@media screen and (min-width:1201px) {
+    .hero-left {
+        padding-top: 176px;
+    }
+}
+
+.img-col-1 .my-5 {
+    padding-top: 50px;
+}
+
+.img-col-2 .my-5 {
+    padding-top: 150px !important;
+}
+
+.grid-images {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+
+    grid-row-gap: 25px;
+    align-content: center;
+}
+
+
+
+@media (min-width:500px) {
+    .grid-images {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-column-gap: 25px;
+        align-content: center;
+    }
+}
+
+.h-pic1 {
+    align-self: end;
+    margin-bottom: 35px;
+}
+
+.h-pic3 {
+    justify-self: end;
+}
+
+
+
+.h-pic4 {
+    align-self: center;
+
+
+}
+
+/* section 2 */
+
+
+#slider-section {
+    margin: 50px 0px;
+}
+
+.red-color {
+    color: #EA272B;
+    text-align: center;
+}
+
+
+
+/* section 3 + section  */
+
+img.pic2 {
+    grid-row: span 2;
+    align-self: end;
+    width: 90%;
+}
+
+img.pic3 {
+    align-self: end;
+    width: 90%;
+    justify-self: end;
+}
+
+
+/* animates counter  */
+
+#counter {
+    text-align: center;
+}
+
+#counter .counter {
+    color: #3373BA;
+    font-weight: bolder;
+}
+
+
+.counter-title {
+    font-size: 13px;
+}
+
+.about-section .card-title {
+    line-height: 50px;
+}
+
+
+/* services */
+
+
+#services {
+    background-color: #EDEDED;
+}
+
+
+.heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #030509;
+}
+
+
+#services .card img {
+    width: 70px;
+    margin: 0px auto;
+}
+
+#services .card {
+    border-radius: 0;
+}
+
+#services .card-title {
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    line-height: 40px;
+
+}
+
+#services .card-text {
+    text-align: justify !important;
+    font-size: 14px;
+}
+
+#services .card-link {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+/* video section  */
+
+#video-section .card {
+    border: none;
+
+}
+
+#video-section .card-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#video-section .card-text {
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#video-section .card-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+/* form  section */
+
+#contact-section .card-text {
+    font-size: 16px;
+}
+
+#contact-section input,
+#contact-section textarea {
+    background-color: #F8F8F8;
+    color: rgb(183, 183, 183);
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    border: 0;
+    border-radius: 0;
+    padding: 12px 10px;
+
+}
+
+
+#contact-section button.custom-btn {
+    border: 1px solid #3373BA;
+}
+
+#contact-section button.custom-btn:hover {
+    background-color: #EA272B;
+    color: #fff;
+    border: 1px solid #EA272B;
+}
+
+
+
+/* icon box  */
+.icon-box {
+    border: 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+.icon-box img {
+
+    width: 64px;
+    margin: 0 auto;
+
+}
+
+
+.icon-box .card-title {
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.icon-box .card-text {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+/* footer  */
+
+#footer .display-6 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 26px;
+}
+
+.list-group {
+    border: 0;
+
+}
+
+.list-group .list-group-item {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+
+}
+
+#footer input[type="email"] {
+    background-color: #F8F8F8;
+    color: rgb(183, 183, 183);
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    border: 0;
+    border-radius: 0;
+    padding: 12px 10px;
+    text-transform: capitalize;
+}
+
+#footer .custom-btn {
+    border: 1px solid #EA272B;
+    background-color: #EA272B;
+}
+
+#footer .custom-btn:hover {
+    border: 1px solid #EA272B;
+    background-color: #ea272a00;
+    color: #EA272B;
+}
+
+.divider{
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+@media screen and (max-width:345px) {
+    .navbar-brand {
+
+        margin: 0px auto;
+    }
+}
+
+
+.navbar-toggler:focus {
+
+    box-shadow: 0 0 0 0 !important;
+}
+
+.navbar-toggler {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+@media screen and (max-width:478px) {
+    .navbar button.custom-btn {
+
+        margin: 0px auto;
+    }
+}
+
+@media (max-width:425px) {
+    .heading {
+        font-size: 30px;
+
+    }
+
+    .sub-title {
+        font-size: 15px;
+
+    }
+}
+
+
+/* about page  */
+
+.about-bg {
+    background-image: url('images/about-banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+}
+
+img.justify-self {
+   
+    justify-self: end;
+}
+
+.bg-banner-2{
+    background-image: url('images/about-banner2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.spacer{
+    height: 70px;
+}
+
+
+/* progress bar  */
+
+.progress-div .progress-label{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.progress-label .name, .progress-label span{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+.progress{
+    box-shadow: inset 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+}
+.progress-bar{
+    background-color: #3373BA;
+}
